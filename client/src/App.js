@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Skills from "./components/Skills";
