@@ -89,7 +89,7 @@ function Nav() {
                     </div>
                 </nav>
             </div>
-            <h1>----------This will be the nav bar----------</h1>
+            <h1>----------This will be the nav bar---------</h1>
         </div>
     )
 }
