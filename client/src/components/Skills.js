@@ -7,7 +7,7 @@ function Skills() {
         <div className='container is-fluid columns is-mobile'>
             <div className='column is-10 is-offset-1'>
                 <section className='box'>
-                    <Carousel slides={slides} autoplay={true} interval={1000}></Carousel>
+                    <Carousel slides={slides}></Carousel>
                 </section>
             </div>
         </div>
