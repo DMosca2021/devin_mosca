@@ -1,9 +1,20 @@
 function Footer() {
     return (
         <div>
-            <h1>This is where the footer will go</h1>
-            <h2>Have redundant contact information ex: include phone contact, email address in the open, social media</h2>
-            <button className="button is-primary">Include button to download resume</button>
+            <div>
+                <footer className="footer">
+                    <div className="content has-text-centered">
+                        <p>
+                            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                        </p>
+                        <button className="button is-primary">Include button to download resume</button>
+                    </div>
+                </footer>
+            </div>
+
+
         </div>
     )
 }
