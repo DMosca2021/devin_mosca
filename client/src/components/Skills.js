@@ -1,7 +1,29 @@
 import { Carousel } from '3d-react-carousal'
 
 function Skills() {
-    let slides = ["HTML", "CSS", "JavaScript", "Git", "Node.js", "REST API", "Handlebars", "Express.js", "MySQL", "Sequelize", "MongoDB", "Mongoose", "React.js", "Redux", "GraphQL", "Apollo", "Phaser", "C++", "Unreal 4", "Illustrator", "Photoshop", <div className="box">Hello</div>];
+    let slides = [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "Node.js",
+        "REST API",
+        "Handlebars",
+        "Express.js",
+        "MySQL",
+        "Sequelize",
+        "MongoDB",
+        "Mongoose",
+        "React.js",
+        "Redux",
+        "GraphQL",
+        "Apollo",
+        "Phaser",
+        "C++",
+        "Unreal 4",
+        "Illustrator",
+        "Photoshop",
+        <div className="box">Hello</div>];
 
     return (
         <div className='container is-fluid columns is-mobile' id='skills-contain'>
