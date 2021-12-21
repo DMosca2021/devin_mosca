@@ -8,11 +8,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hotpink;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#nav-contain {
+  background-color: grey;
 }
 
 #about-contain {
@@ -34,6 +39,7 @@ code {
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // Set your brand colors
+$red: #940818;
 $purple: #8A4D76;
 $pink: #FA7C91;
 $brown: #757763;
@@ -54,6 +60,9 @@ $body-background-color: $beige-lighter;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+$navbar-background-color: $red;
+$navbar-item-active-background-color: $purple;
+$navbar-item-hover-background-color: $purple;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/grid/columns.sass";

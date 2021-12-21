@@ -26,7 +26,7 @@ function Nav() {
       });
 
     return (
-        <div className='columns is-mobile'>
+        <div className='container is-fluid columns is-mobile' id='nav-contain'>
             <div className='column is-full'>
                 <nav className="navbar" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
@@ -44,14 +44,22 @@ function Nav() {
                     <div id="navbarBasicExample" className="navbar-menu">
                         <div className="navbar-start">
                             <a className="navbar-item" href='#'>
-                                Home
+                                About Me
                             </a>
 
                             <a className="navbar-item">
-                                Documentation
+                                My Skills
                             </a>
 
-                            <div className="navbar-item has-dropdown is-hoverable">
+                            <a className="navbar-item">
+                                My Projects
+                            </a>
+
+                            <a className="navbar-item">
+                                Contact Me
+                            </a>
+
+                            {/* <div className="navbar-item has-dropdown is-hoverable">
                                 <a className="navbar-link">
                                     More
                                 </a>
@@ -66,22 +74,18 @@ function Nav() {
                                     <a className="navbar-item" href='#'>
                                         Contact
                                     </a>
-                                    {/* <hr className="navbar-divider"> </hr> */}
                                     <a className="navbar-item" href='#'>
                                         Report an issue
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="navbar-end">
                             <div className="navbar-item">
-                                <div className="buttons">
+                                <div className="">
                                     <a className="button is-primary">
-                                        <strong>Sign up</strong>
-                                    </a>
-                                    <a className="button is-light">
-                                        Log in
+                                        <strong>Here's</strong> my resume
                                     </a>
                                 </div>
                             </div>
@@ -89,7 +93,6 @@ function Nav() {
                     </div>
                 </nav>
             </div>
-            <h1>----------This will be the nav bar---------</h1>
         </div>
     )
 }
