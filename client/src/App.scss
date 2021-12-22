@@ -1,5 +1,4 @@
 @charset "utf-8";
-// @import "../node_modules/bulma/bulma.sass";
 
 body {
   margin: 0;
@@ -16,6 +15,11 @@ code {
     monospace;
 }
 
+// .slider-single-content{
+//   height: 128px;
+//   width: 128px;
+// }
+
 #nav-contain {
   background-color: grey;
 }
@@ -26,6 +30,11 @@ code {
 
 #skills-contain {
   background-color: green;
+}
+
+#tech-logo {
+  height: 96px;
+  width: 96px;
 }
 
 #contact-contain {

@@ -1,13 +1,21 @@
-import { Carousel } from '3d-react-carousal'
+import { Carousel } from '3d-react-carousal';
+import htmlLogo from '../assets/svg/html_logo.svg';
+// import cssLogo from '../assets/svg/css_logo.svg';
+import jsLogo from '../assets/svg/javascript_logo.svg';
+import gitLogo from '../assets/svg/git_logo.svg';
+import nodeLogo from '../assets/svg/nodejs_logo.svg';
+import restLogo from '../assets/images/restAPI_logo.jpg';
+
+
 
 function Skills() {
     let slides = [
-        "HTML",
+        <img src={htmlLogo} alt="HTML" id='tech-logo'></img>,
         "CSS",
-        "JavaScript",
-        "Git",
-        "Node.js",
-        "REST API",
+        <img src={jsLogo} alt='JavaScript' id='tech-logo'></img>,
+        <img src={gitLogo} alt="Git" id='tech-logo'></img>,
+        <img src={nodeLogo} alt="Node.js" id='tech-logo'></img>,
+        <img src={restLogo} alt="REST API" id='tech-logo'></img>,
         "Handlebars",
         "Express.js",
         "MySQL",
