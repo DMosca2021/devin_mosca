@@ -22,9 +22,9 @@ function Skills() {
         "MySQL",
         "Sequelize",
         "MongoDB",
-        "Mongoose",
+        "Mongoose", // May need to update this via illustrator
         "React.js",
-        "Redux",
+        "Redux", // This is where i left off finding logos.
         "GraphQL",
         "Apollo",
         "Phaser",
