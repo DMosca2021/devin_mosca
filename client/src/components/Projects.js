@@ -1,7 +1,7 @@
 function Projects() {
     return (
         <div className='container is-fluid columns is-mobile' id="project-contain">
-            <div className='column is-10 is-offset-1'>
+            <div className='column'>
                 <section className='section is-large'>
                     <div className="tile is-ancestor">
                         <div className="tile is-parent">

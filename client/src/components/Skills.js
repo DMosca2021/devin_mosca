@@ -35,8 +35,10 @@ function Skills() {
 
     return (
         <div className='container is-fluid columns is-mobile' id='skills-contain'>
-            <div className='column is-10 is-offset-1'>
-                <section className='section is-large'>
+            <div className='column'>
+                <section className='section is-large '>
+                    <h1 className="title is-1 ">Title</h1>
+                    <h2 className="subtitle">Subtitle</h2>
                     <Carousel slides={slides}></Carousel>
                 </section>
             </div>

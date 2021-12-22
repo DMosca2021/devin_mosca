@@ -1,7 +1,7 @@
 function About() {
     return (
         <div className='container is-fluid columns is-mobile' id='about-contain'>
-            <div className='column is-10 is-offset-1'>
+            <div className='column'>
                 <section className='columns is-multiline section is-large'>
                     <div className='column is-6'>
                         <h1 className='title'>Devin Mosca</h1>

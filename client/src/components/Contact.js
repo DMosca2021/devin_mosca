@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <div className='container is-fluid columns is-mobile' id='contact-contain'>
-            <div className='column is-10 is-offset-1'>
+            <div className='column'>
                 <section className='columns is-multiline section is-large'>
                     <form className='box column is-8'>
                         <div class="field">
