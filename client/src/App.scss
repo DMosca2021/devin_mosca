@@ -15,19 +15,17 @@ code {
     monospace;
 }
 
-// .slider-single-content{
-//   height: 128px;
-//   width: 128px;
-// }
-
+// Nav bar styling
 #nav-contain {
   background-color: grey;
 }
 
+// About me component styling
 #about-contain {
   background-color: red;
 }
 
+// Skills component styling
 #skills-contain {
   background-color: green;
 }
@@ -43,9 +41,16 @@ code {
   width: 96px;
 }
 
+// Contact form styling
 #contact-contain {
   background-color: blue;
 }
+
+#form-section {
+  border: 2px solid black;
+}
+
+// Project component styling
 #project-contain {
   background-color: yellow
 }

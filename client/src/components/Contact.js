@@ -1,42 +1,30 @@
 function Contact() {
     return (
         <div className='container is-fluid columns is-mobile' id='contact-contain'>
-            <div className='column'>
-                <section className='columns is-multiline section is-large'>
-                    <form className='box column is-8'>
+            <div className='column has-text-centered'>
+                <h1 className="title is-1">If you would like to get in touch with me....</h1>
+                <p className="subtitle is-2">Fill out the form below <br></br> Need to reduce the padding/margin here </p>
+                <section className='columns is-multiline is-centered has-text-left section is-large'>
+                    <form className='box column is-8' id="form-section">
                         <div class="field">
-                            <label className="label">Name</label>
+                            <label className="label">First Name</label>
                             <div className="control">
                                 <input className="input" type="text" placeholder="Text input"></input>
                             </div>
                         </div>
 
                         <div className="field">
-                            <label className="label">Username</label>
-                            <div className="control has-icons-left has-icons-right">
-                                <input className="input is-success" type="text" placeholder="Text input" value="bulma"></input>
-                                <span className="icon is-small is-left">
-                                    <i className="fas fa-user"></i>
-                                </span>
-                                <span className="icon is-small is-right">
-                                    <i className="fas fa-check"></i>
-                                </span>
+                            <label className="label">Last Name</label>
+                            <div className="control">
+                                <input className="input" type="text" placeholder="Text input"></input>
                             </div>
-                            <p className="help is-success">This username is available</p>
                         </div>
 
                         <div className="field">
                             <label className="label">Email</label>
-                            <div className="control has-icons-left has-icons-right">
-                                <input className="input is-danger" type="email" placeholder="Email input" value="hello@"></input>
-                                <span className="icon is-small is-left">
-                                    <i className="fas fa-envelope"></i>
-                                </span>
-                                <span className="icon is-small is-right">
-                                    <i className="fas fa-exclamation-triangle"></i>
-                                </span>
+                            <div className="control">
+                                <input className="input" type="email" placeholder="Email input"></input>
                             </div>
-                            <p className="help is-danger">This email is invalid</p>
                         </div>
 
                         <div className="field">
@@ -44,8 +32,11 @@ function Contact() {
                             <div className="control">
                                 <div className="select">
                                     <select>
-                                        <option>Select dropdown</option>
-                                        <option>With options</option>
+                                        <option>Select subject:</option>
+                                        <option>Say Hi!</option>
+                                        <option>Collaborate</option>
+                                        <option>Need Help?</option>
+                                        <option>Hire Me.</option>
                                     </select>
                                 </div>
                             </div>
@@ -89,6 +80,9 @@ function Contact() {
                             </div>
                         </div>
                     </form>
+                    <div>
+                        <button>My Resume</button>
+                    </div>
                 </section>
             </div>
         </div>
