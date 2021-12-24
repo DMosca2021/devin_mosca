@@ -56,9 +56,9 @@ p {
 }
 
 // Skills component styling
-#skills-contain {
-  background-color: green;
-}
+// #skills-contain {
+//   background-color: green;
+// }
 
 #skills-title {
   color: white;
@@ -71,19 +71,26 @@ p {
   width: 96px;
 }
 
-// Contact form styling
-#contact-contain {
-  background-color: blue;
+.slider-left div {
+  background-color: rgba(128,128,128,0.5);
 }
+
+.slider-right div {
+  background-color: rgba(128,128,128,0.5);
+}
+// Contact form styling
+// #contact-contain {
+//   background-color: blue;
+// }
 
 #form-section {
   border: 2px solid black;
 }
 
 // Project component styling
-#project-contain {
-  background-color: yellow
-}
+// #project-contain {
+//   background-color: yellow
+// }
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
