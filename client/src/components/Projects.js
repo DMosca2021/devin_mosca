@@ -2,9 +2,9 @@ function Projects() {
     return (
         <div className='container is-fluid columns is-mobile' id="project-contain">
             <div className='column'>
-                <section className='section is-large'>
+                <section className='section is-large' id='temp-border'>
                     <div className="tile is-ancestor">
-                        <div className="tile is-parent">
+                        <div className="tile is-parent" >
                             <article className="tile is-child box">
                                 <p className="title">I want to keep this one</p>
                                 <p className="subtitle">Put a project here</p>

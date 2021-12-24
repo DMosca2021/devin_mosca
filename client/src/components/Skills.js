@@ -32,13 +32,14 @@ function Skills() {
         "Unreal 4",
         "Illustrator",
         "Photoshop",
-        <div className="box">Hello</div>];
+        <div className="box">Hello</div>
+    ];
 
     return (
         <div className='container is-fluid columns is-centered is-vcentered is-mobile' id='skills-contain'>
             <div className='column has-text-centered'>
                 <h1 className="title is-1" id='skills-title'>Some technology I am familiar with</h1>
-                <section className='section is-large '>
+                <section className='section is-large ' id='temp-border'>
                 <h2 className="subtitle is-3">Use the arrows or swipe through the gallery</h2>
 
                     <Carousel slides={slides}></Carousel>
