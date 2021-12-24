@@ -5,7 +5,7 @@ function Contact() {
                 <h1 className="title is-1">If you would like to get in touch with me....</h1>
                 <p className="subtitle is-2">Fill out the form below <br></br> Need to reduce the padding/margin here </p>
                 <section className='columns is-multiline is-centered has-text-left section is-large'>
-                    <form className='box column is-8' id="form-section">
+                    <form className='box column is-6' id="form-section">
                         <div class="field">
                             <label className="label">First Name</label>
                             <div className="control">
@@ -49,29 +49,7 @@ function Contact() {
                             </div>
                         </div>
 
-                        <div className="field">
-                            <div className="control">
-                                <label className="checkbox">
-                                    <input type="checkbox"></input>
-                                    I agree to the <a href="#">terms and conditions</a>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div className="field">
-                            <div className="control">
-                                <label className="radio">
-                                    <input type="radio" name="question"></input>
-                                    Yes
-                                </label>
-                                <label className="radio">
-                                    <input type="radio" name="question"></input>
-                                    No
-                                </label>
-                            </div>
-                        </div>
-
-                        <div className="field is-grouped">
+                        <div className="buttons is-centered">
                             <div className="control">
                                 <button className="button is-link">Submit</button>
                             </div>
@@ -80,8 +58,8 @@ function Contact() {
                             </div>
                         </div>
                     </form>
-                    <div>
-                        <button>My Resume</button>
+                    <div className="column is-full has-text-centered">
+                        <button className="button is-large">My Resume</button>
                     </div>
                 </section>
             </div>
