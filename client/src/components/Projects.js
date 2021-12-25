@@ -4,7 +4,7 @@ function Projects() {
             <div className='column'>
                 <section className='section is-large' id='temp-border'>
                     <div className="tile is-ancestor">
-                        <div className="tile is-parent" >
+                        <div className="tile is-parent" id='temp-border'>
                             <article className="tile is-child box">
                                 <p className="title">I want to keep this one</p>
                                 <p className="subtitle">Put a project here</p>
@@ -42,13 +42,16 @@ function Projects() {
                                         <p className="subtitle">Bottom box</p>
                                     </article>
                                 </div>
-                                <div className="tile is-parent">
+                                <div className="tile is-parent" id='temp-border'>
                                     <article className="tile is-child box">
                                         <p className="title">Middle box</p>
                                         <p className="subtitle">With an image</p>
                                         <figure className="image is-4by3">
                                             <img src="https://bulma.io/images/placeholders/640x480.png"></img>
                                         </figure>
+                                        <div className="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                                </div>
                                     </article>
                                 </div>
                             </div>
