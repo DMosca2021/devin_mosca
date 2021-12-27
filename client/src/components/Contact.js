@@ -6,8 +6,7 @@ function Contact() {
           If you would like to get in touch with me....
         </h1>
         <p className='subtitle is-2'>
-          Fill out the form below <br></br> Need to reduce the padding/margin
-          here{' '}
+          Fill out the form below
         </p>
         <section className='columns is-multiline is-centered has-text-left section is-large'>
           <form className='box column is-6' id='form-section'>

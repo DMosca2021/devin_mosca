@@ -39,10 +39,10 @@ function Skills() {
       id='skills-contain'
     >
       <div className='column has-text-centered'>
-        <h1 className='title is-1' id='skills-title'>
-          Some technology I am familiar with
-        </h1>
-        <section className='section is-large ' id='temp-border'>
+        <section className='section is-large'>
+          <h1 className='title is-1' id='skills-title'>
+            Some technology I am familiar with
+          </h1>
           <h2 className='subtitle is-3'>
             Use the arrows or swipe through the gallery
           </h2>

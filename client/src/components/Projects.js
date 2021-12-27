@@ -70,6 +70,7 @@ function Projects() {
     <div className='container is-fluid columns is-mobile' id='project-contain'>
       <div className='column'>
         <section className='section is-large'>
+        <div className='title is-1 has-text-centered'>Examples of my work</div>
           <div className='tile is-ancestor'>
             <div className='tile is-parent' id='flip-card'>
               <article className='tile is-child box' id='flip-card-inner'>
