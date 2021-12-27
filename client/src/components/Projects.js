@@ -1,32 +1,32 @@
 function Projects() {
   return (
-    <div className="container is-fluid columns is-mobile" id="project-contain">
-      <div className="column">
-        <section className="section is-large" id="temp-border">
-          <div className="tile is-ancestor">
-            <div className="tile is-parent" id="temp-border">
-              <article className="tile is-child box">
-                <p className="title">I want to keep this one</p>
-                <p className="subtitle">Put a project here</p>
+    <div className='container is-fluid columns is-mobile' id='project-contain'>
+      <div className='column'>
+        <section className='section is-large' id='temp-border'>
+          <div className='tile is-ancestor'>
+            <div className='tile is-parent' id='temp-border'>
+              <article className='tile is-child box'>
+                <p className='title'>I want to keep this one</p>
+                <p className='subtitle'>Put a project here</p>
               </article>
             </div>
-            <div className="tile is-parent">
-              <div className="card">
-                <article className="tile is-child box">
-                  <p className="title">Put Another project here</p>
-                  <p className="subtitle">
+            <div className='tile is-parent'>
+              <div className='card'>
+                <article className='tile is-child box'>
+                  <p className='title'>Put Another project here</p>
+                  <p className='subtitle'>
                     Maybe add a flipping animation on hover
                   </p>
                 </article>
               </div>
             </div>
-            <div className="tile is-parent">
-              <article className="tile is-child box">
-                <p className="title">Third Project</p>
-                <p className="subtitle">
+            <div className='tile is-parent'>
+              <article className='tile is-child box'>
+                <p className='title'>Third Project</p>
+                <p className='subtitle'>
                   Probably will stop here, not much to showcase yet.
                 </p>
-                <div className="content">
+                <div className='content'>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Proin ornare magna eros, eu pellentesque tortor vestibulum
@@ -38,27 +38,27 @@ function Projects() {
             </div>
           </div>
 
-          <div className="tile is-ancestor">
-            <div className="tile is-vertical is-8">
-              <div className="tile">
-                <div className="tile is-parent is-vertical">
-                  <article className="tile is-child box">
-                    <p className="title">Vertical tiles</p>
-                    <p className="subtitle">Top box</p>
+          <div className='tile is-ancestor'>
+            <div className='tile is-vertical is-8'>
+              <div className='tile'>
+                <div className='tile is-parent is-vertical'>
+                  <article className='tile is-child box'>
+                    <p className='title'>Vertical tiles</p>
+                    <p className='subtitle'>Top box</p>
                   </article>
-                  <article className="tile is-child box">
-                    <p className="title">Vertical tiles</p>
-                    <p className="subtitle">Bottom box</p>
+                  <article className='tile is-child box'>
+                    <p className='title'>Vertical tiles</p>
+                    <p className='subtitle'>Bottom box</p>
                   </article>
                 </div>
-                <div className="tile is-parent" id="temp-border">
-                  <article className="tile is-child box">
-                    <p className="title">Middle box</p>
-                    <p className="subtitle">With an image</p>
-                    <figure className="image is-4by3">
-                      <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                <div className='tile is-parent' id='temp-border'>
+                  <article className='tile is-child box'>
+                    <p className='title'>Middle box</p>
+                    <p className='subtitle'>With an image</p>
+                    <figure className='image is-4by3'>
+                      <img src='https://bulma.io/images/placeholders/640x480.png'></img>
                     </figure>
-                    <div className="content">
+                    <div className='content'>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Proin ornare magna eros, eu pellentesque tortor
@@ -69,11 +69,11 @@ function Projects() {
                   </article>
                 </div>
               </div>
-              <div className="tile is-parent">
-                <article className="tile is-child box">
-                  <p className="title">Wide column</p>
-                  <p className="subtitle">Aligned with the right column</p>
-                  <div className="content">
+              <div className='tile is-parent'>
+                <article className='tile is-child box'>
+                  <p className='title'>Wide column</p>
+                  <p className='subtitle'>Aligned with the right column</p>
+                  <div className='content'>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Proin ornare magna eros, eu pellentesque tortor vestibulum
@@ -84,12 +84,12 @@ function Projects() {
                 </article>
               </div>
             </div>
-            <div class="tile is-parent">
-              <article class="tile is-child box">
-                <div class="content">
-                  <p class="title">Tall column</p>
-                  <p class="subtitle">With even more content</p>
-                  <div class="content">
+            <div class='tile is-parent'>
+              <article class='tile is-child box'>
+                <div class='content'>
+                  <p class='title'>Tall column</p>
+                  <p class='subtitle'>With even more content</p>
+                  <div class='content'>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Etiam semper diam at erat pulvinar, at pulvinar felis

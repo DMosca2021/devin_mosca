@@ -1,14 +1,14 @@
 // border-style: dotted dashed solid double;
 
-@charset "utf-8";
+@charset 'utf-8';
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(99, 97, 97);
-  // background-image: url("./assets/images/tweed_BG.jpg");
-  background-image: url("./assets/images/test.jpg");
+  // background-image: url('./assets/images/tweed_BG.jpg');
+  background-image: url('./assets/images/test.jpg');
   background-repeat: no-repeat;
   background-size: 1520px 800px;
   background-attachment: fixed;
@@ -29,7 +29,7 @@ p {
 
 // About me component styling
 #about-contain {
-  // background-image: url("./assets/images/tweed_BG2.png");
+  // background-image: url('./assets/images/tweed_BG2.png');
   margin: 50px 0px;
 }
 
@@ -39,9 +39,9 @@ p {
 }
 
 #about-text {
-  border: 3px groove rbga(128,128,128,0.1);
+  border: 3px groove rbga(128, 128, 128, 0.1);
   border-radius: 25px;
-  background-color: rgba(128,128,128,0.5);
+  background-color: rgba(128, 128, 128, 0.5);
   color: white;
   font-size: 20px;
   padding: 5px;
@@ -51,7 +51,7 @@ p {
   color: #000000;
   font-family: 'Neucha', cursive;
   font-weight: 900;
-  -webkit-text-stroke: .1px white;
+  -webkit-text-stroke: 0.1px white;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -72,11 +72,11 @@ p {
 }
 
 .slider-left div {
-  background-color: rgba(128,128,128,0.5);
+  background-color: rgba(128, 128, 128, 0.5);
 }
 
 .slider-right div {
-  background-color: rgba(128,128,128,0.5);
+  background-color: rgba(128, 128, 128, 0.5);
 }
 // Contact form styling
 // #contact-contain {
@@ -85,7 +85,7 @@ p {
 
 #form-section {
   border: 2px solid black;
-  background-color: rgba(128,128,128,0.5);
+  background-color: rgba(128, 128, 128, 0.5);
 }
 
 // Project component styling
@@ -99,11 +99,11 @@ p {
 
 // Set your brand colors
 $red: #940818;
-$purple: #8A4D76;
-$pink: #FA7C91;
+$purple: #8a4d76;
+$pink: #fa7c91;
 $brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Aldrich', sans-serif;
@@ -127,16 +127,16 @@ $navbar-item-hover-background-color: $purple;
 $section-padding-large: 12rem 6rem;
 
 // Import only what you need from Bulma
-@import "../node_modules/bulma/sass/grid/columns.sass";
-@import "../node_modules/bulma/sass/utilities/_all.sass";
-@import "../node_modules/bulma/sass/base/_all.sass";
-@import "../node_modules/bulma/sass/elements/button.sass";
-@import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
-@import "../node_modules/bulma/sass/form/_all.sass";
-@import "../node_modules/bulma/sass/components/navbar.sass";
-@import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/section.sass";
-@import "../node_modules/bulma/sass/layout/footer.sass";
+@import '../node_modules/bulma/sass/grid/columns.sass';
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
+@import '../node_modules/bulma/sass/form/_all.sass';
+@import '../node_modules/bulma/sass/components/navbar.sass';
+@import '../node_modules/bulma/sass/layout/hero.sass';
+@import '../node_modules/bulma/sass/layout/section.sass';
+@import '../node_modules/bulma/sass/layout/footer.sass';
 @import '../node_modules/bulma/sass/grid/tiles.sass';
-@import '../node_modules/bulma/sass/helpers/_all.sass'
+@import '../node_modules/bulma/sass/helpers/_all.sass';

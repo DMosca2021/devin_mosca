@@ -3,31 +3,31 @@ import profPic from '../assets/images/profile_pic.jpeg';
 function About() {
   return (
     <div
-      className="container is-fluid columns is-centered is-mobile"
-      id="about-contain"
+      className='container is-fluid columns is-centered is-mobile'
+      id='about-contain'
     >
-      <div className="column is-centered has-text-centered">
+      <div className='column is-centered has-text-centered'>
         <section
-          className="columns is-multiline section is-vcentered is-centered is-large"
-          id="temp-border"
+          className='columns is-multiline section is-vcentered is-centered is-large'
+          id='temp-border'
         >
-          <div className="column is-6">
-            <h1 className="title is-1" id="about-title">
+          <div className='column is-6'>
+            <h1 className='title is-1' id='about-title'>
               Devin Mosca
             </h1>
-            <p className="subtitle is-3" id="about-subtitle">
+            <p className='subtitle is-3' id='about-subtitle'>
               Coding solutions to coding problems
             </p>
           </div>
-          <div className="column is-6">
-            <figure className="image is-96X96">
-              <img className="is-rounded" src={profPic} id="prof-pic"></img>
+          <div className='column is-6'>
+            <figure className='image is-96X96'>
+              <img className='is-rounded' src={profPic} id='prof-pic'></img>
             </figure>
           </div>
-          <div className="column is-9 ">
-            <div className="card">
-              <div className="card-content">
-                <div className="content" id="about-text">
+          <div className='column is-9 '>
+            <div className='card'>
+              <div className='card-content'>
+                <div className='content' id='about-text'>
                   <p>
                     Full-stack web developer with a background in high-paced,
                     high-demand, customer satisfaction driven work environments.
