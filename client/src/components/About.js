@@ -9,7 +9,6 @@ function About() {
       <div className='column is-centered has-text-centered'>
         <section
           className='columns is-multiline section is-vcentered is-centered is-large'
-          id='temp-border'
         >
           <div className='column is-6'>
             <h1 className='title is-1' id='about-title'>
