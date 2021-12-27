@@ -10,6 +10,9 @@ import eeQuiz from '../assets/images/EtEx_quiz.png';
 import eeEmotion from '../assets/images/EtEx_textentryemotion.png';
 import eeUserOne from '../assets/images/EtEx_user1name.png';
 import eeUserTwo from '../assets/images/EtEx_user2name.png';
+import weatherDash from '../assets/images/weatherDash_scrnsht.png';
+import weatherDashOne from '../assets/images/weather-dash1_scrnsht.png';
+import weatherDashTwo from '../assets/images/weather-dash2_scrnsht.png';
 
 function Projects() {
   const sobImages = [
@@ -51,13 +54,23 @@ function Projects() {
     },
   ];
 
-  const weatherImages = [];
+  const weatherImages = [
+    {
+      original: weatherDash,
+    },
+    {
+      original: weatherDashOne,
+    },
+    {
+      original: weatherDashTwo,
+    },
+  ];
 
   return (
     <div className='container is-fluid columns is-mobile' id='project-contain'>
       <div className='column'>
-        <section className='section is-large' id='temp-border'>
-          <div className='tile is-ancestor' id='temp-border-red'>
+        <section className='section is-large'>
+          <div className='tile is-ancestor'>
             <div className='tile is-parent' id='flip-card'>
               <article className='tile is-child box' id='flip-card-inner'>
                 {/* <figure className='image is-4by3' id='flip-card-front'>
@@ -149,7 +162,7 @@ function Projects() {
                   <p className='subtitle'>With an image</p>
                   <figure className='image is-4by3'>
                     <ImageGallery
-                      items={sobImages}
+                      items={weatherImages}
                       showPlayButton={false}
                       showNav={false}
                       showBullets={true}
