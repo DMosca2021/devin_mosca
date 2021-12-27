@@ -51,6 +51,7 @@ function Projects() {
                     <p className='subtitle'>Bottom box</p>
                   </article>
                 </div>
+
                 <div className='tile is-parent' id='temp-border'>
                   <article className='tile is-child box'>
                     <p className='title'>Middle box</p>
@@ -65,6 +66,11 @@ function Projects() {
                         vestibulum ut. Maecenas non massa sem. Etiam finibus
                         odio quis feugiat facilisis.
                       </p>
+                    </div>
+                    <div class='buttons has-addons'>
+                      <button class='button'>Yes</button>
+                      <button class='button'>Maybe</button>
+                      <button class='button'>No</button>
                     </div>
                   </article>
                 </div>
@@ -84,6 +90,7 @@ function Projects() {
                 </article>
               </div>
             </div>
+
             <div class='tile is-parent'>
               <article class='tile is-child box'>
                 <div class='content'>
