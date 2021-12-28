@@ -7,9 +7,7 @@ function About() {
       id='about-contain'
     >
       <div className='column is-centered has-text-centered'>
-        <section
-          className='columns is-multiline section is-vcentered is-centered is-large'
-        >
+        <section className='columns is-multiline section is-vcentered is-centered is-large'>
           <div className='column is-6'>
             <h1 className='title is-1' id='about-title'>
               Devin Mosca
@@ -20,7 +18,12 @@ function About() {
           </div>
           <div className='column is-6'>
             <figure className='image is-96X96'>
-              <img className='is-rounded' src={profPic} id='prof-pic'></img>
+              <img
+                className='is-rounded'
+                src={profPic}
+                id='prof-pic'
+                alt='profile'
+              ></img>
             </figure>
           </div>
           <div className='column is-9 '>
