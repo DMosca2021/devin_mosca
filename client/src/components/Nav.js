@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
   document.addEventListener('DOMContentLoaded', () => {
     // Get all 'navbar-burger' elements
@@ -61,34 +63,13 @@ function Nav() {
               <a className='navbar-item'>My Projects</a>
 
               <a className='navbar-item'>Contact Me</a>
-
-              {/* <div className='navbar-item has-dropdown is-hoverable'>
-                                <a className='navbar-link'>
-                                    More
-                                </a>
-
-                                <div className='navbar-dropdown'>
-                                    <a className='navbar-item' href='#'>
-                                        About
-                                    </a>
-                                    <a className='navbar-item' href='#'>
-                                        Jobs
-                                    </a>
-                                    <a className='navbar-item' href='#'>
-                                        Contact
-                                    </a>
-                                    <a className='navbar-item' href='#'>
-                                        Report an issue
-                                    </a>
-                                </div>
-                            </div> */}
             </div>
 
             <div className='navbar-end'>
               <div className='navbar-item'>
-                <div className=''>
+                <div>
                   <a className='button is-primary'>
-                    <strong>Here's</strong> my resume
+                    Here's my resume
                   </a>
                 </div>
               </div>

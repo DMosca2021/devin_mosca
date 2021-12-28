@@ -30,7 +30,6 @@ function Skills() {
     'Unreal 4',
     'Illustrator',
     'Photoshop',
-    <div className='box'>Hello</div>,
   ];
 
   return (

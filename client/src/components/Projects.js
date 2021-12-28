@@ -98,10 +98,9 @@ function Projects() {
                     This is a javascript fueled web based video game. The user is able to create an account, login, and play a basic 2d pixel art top-down video game.
                     </p>
                   </div>
-                  <div class='buttons has-addons is-centered'>
-                    <button class='button'>Deployed App</button>
-                    <button class='button'>Repository </button>
-                    {/* <button class='button'>No</button> */}
+                  <div className='buttons has-addons is-centered'>
+                    <button className='button'>Deployed App</button>
+                    <button className='button'>Repository </button>
                   </div>
                 </div>
               </article>
@@ -133,10 +132,9 @@ function Projects() {
                     An application for users to get mental health support and general advice from loved ones.
                     </p>
                   </div>
-                  <div class='buttons has-addons is-centered'>
-                    <button class='button'>Deployed App</button>
-                    <button class='button'>Repository </button>
-                    {/* <button class='button'>No</button> */}
+                  <div className='buttons has-addons is-centered'>
+                    <button className='button'>Deployed App</button>
+                    <button className='button'>Repository </button>
                   </div>
                 </div>
               </article>
@@ -168,10 +166,9 @@ function Projects() {
                     A Weather application using Open Weather API to display current weather conditions for a searched city.
                     </p>
                   </div>
-                  <div class='buttons has-addons is-centered'>
-                    <button class='button'>Deployed App</button>
-                    <button class='button'>Repository </button>
-                    {/* <button class='button'>No</button> */}
+                  <div className='buttons has-addons is-centered'>
+                    <button className='button'>Deployed App</button>
+                    <button className='button'>Repository </button>
                   </div>
                 </div>
               </article>
