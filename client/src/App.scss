@@ -8,7 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(99, 97, 97);
-  background-image: url('./assets/images/test.jpg'); // Need to resize image in photoshop
+  background-image: url('./assets/images/hex-bg_img.png'); // Need to resize image in photoshop
   background-repeat: no-repeat;
   background-size: 1520px 800px;
   background-attachment: fixed;
@@ -16,12 +16,7 @@ body {
 
 p {
   font-family: 'Aldrich', sans-serif;
-}
-
-// Nav bar styling
-
-#nav-contain {
-  background-color: grey;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 // About me component styling
@@ -41,12 +36,14 @@ p {
   background-color: rgba(128, 128, 128, 0.5);
   color: white;
   font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
   padding: 5px;
 }
 
 #about-title {
   color: #000000;
   font-family: 'Neucha', cursive;
+  font-size: 52px;
   font-weight: 900;
   -webkit-text-stroke: 0.1px white;
   text-shadow: 2px 2px 4px #000000;
@@ -55,7 +52,9 @@ p {
 // Skills component styling
 
 #skills-title {
-  color: black;
+  color: gray;
+  -webkit-text-stroke: 0.1px #940818;
+  text-shadow: 2px 2px 4px #000000;
   margin-top: 50px;
   margin-bottom: none;
 }

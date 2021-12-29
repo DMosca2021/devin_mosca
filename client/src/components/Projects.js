@@ -70,7 +70,7 @@ function Projects() {
     <div className='container is-fluid columns is-mobile' id='project-contain'>
       <div className='column'>
         <section className='section is-large'>
-          <div className='title is-1 has-text-centered'>
+          <div className='title is-1 has-text-centered' id='contain-title'>
             Examples of my work
           </div>
           <div className='tile is-ancestor'>
@@ -127,7 +127,7 @@ function Projects() {
               </article>
             </div>
 
-            <div className='tile is-parent' id='flip-card'>
+            <div className='tile is-parent has-text-centered' id='flip-card'>
               <article className='tile is-child box' id='flip-card-inner'>
                 {/* <figure className='image is-4by3' id='flip-card-front'>
                   <img
@@ -178,7 +178,7 @@ function Projects() {
               </article>
             </div>
 
-            <div className='tile is-parent' id='flip-card'>
+            <div className='tile is-parent has-text-centered' id='flip-card'>
               <article className='tile is-child box' id='flip-card-inner'>
                 {/* <figure className='image is-4by3' id='flip-card-front'>
                   <img
