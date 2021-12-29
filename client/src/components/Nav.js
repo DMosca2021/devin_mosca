@@ -17,11 +17,11 @@ function Nav() {
               ></img>
             </a>
 
-            <a
+            <button
               onClick={() => {
                 setIsActive(!isActive);
               }}
-              role='button'
+              
               className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
               aria-label='menu'
               aria-expanded='false'
@@ -30,7 +30,7 @@ function Nav() {
               <span aria-hidden='true'></span>
               <span aria-hidden='true'></span>
               <span aria-hidden='true'></span>
-            </a>
+            </button>
           </div>
 
           <div
