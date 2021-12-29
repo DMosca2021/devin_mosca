@@ -76,7 +76,14 @@ function Contact() {
             </div>
           </form>
           <div className='column is-full has-text-centered'>
-            <button className='button is-large'>My Resume</button>
+            <a
+              className='button is-primary'
+              href='https://docs.google.com/document/d/1KD8DspLtCu3Cb3lA7VSG24PH7bKvYFsAzWMytRI7Z-4/edit?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Here's my resume
+            </a>
           </div>
         </section>
       </div>
