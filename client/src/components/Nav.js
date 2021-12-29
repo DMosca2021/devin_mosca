@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 function Nav() {
   const [isActive, setIsActive] = useState(false);
@@ -67,6 +66,7 @@ function Nav() {
                     className='button is-primary'
                     href='https://docs.google.com/document/d/1KD8DspLtCu3Cb3lA7VSG24PH7bKvYFsAzWMytRI7Z-4/edit?usp=sharing'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     Here's my resume
                   </a>
