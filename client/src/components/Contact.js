@@ -10,7 +10,7 @@ function Contact() {
         </p>
         <section className='columns is-multiline is-centered has-text-left section is-large'>
           <form className='box column is-6' id='form-section'>
-            <div class='field'>
+            <div className='field'>
               <label className='label'>First Name</label>
               <div className='control'>
                 <input
