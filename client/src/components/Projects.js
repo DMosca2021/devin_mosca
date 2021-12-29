@@ -70,7 +70,9 @@ function Projects() {
     <div className='container is-fluid columns is-mobile' id='project-contain'>
       <div className='column'>
         <section className='section is-large'>
-        <div className='title is-1 has-text-centered'>Examples of my work</div>
+          <div className='title is-1 has-text-centered'>
+            Examples of my work
+          </div>
           <div className='tile is-ancestor'>
             <div className='tile is-parent' id='flip-card'>
               <article className='tile is-child box' id='flip-card-inner'>
@@ -84,7 +86,10 @@ function Projects() {
                 </figure> */}
                 <div id='flip-card-back'>
                   <p className='title has-text-centered'>Scrypts of Betrayal</p>
-                  <p className='subtitle has-text-centered'>HTML, CSS, JavaScript, Express, Express Handlebars, Bulma, GoogleFonts, Phaser, Tiled</p>
+                  <p className='subtitle has-text-centered'>
+                    HTML, CSS, JavaScript, Express, Express Handlebars, Bulma,
+                    GoogleFonts, Phaser, Tiled
+                  </p>
                   <figure className='image is-4by3'>
                     <ImageGallery
                       items={sobImages}
@@ -95,7 +100,9 @@ function Projects() {
                   </figure>
                   <div className='content'>
                     <p>
-                    This is a javascript fueled web based video game. The user is able to create an account, login, and play a basic 2d pixel art top-down video game.
+                      This is a javascript fueled web based video game. The user
+                      is able to create an account, login, and play a basic 2d
+                      pixel art top-down video game.
                     </p>
                   </div>
                   <div className='buttons has-addons is-centered'>
@@ -118,7 +125,9 @@ function Projects() {
                 </figure> */}
                 <div id='flip-card-back'>
                   <p className='title'>Eternal External</p>
-                  <p className='subtitle'>HTML, CSS, JavaScript, API, Materialize, Photoshop</p>
+                  <p className='subtitle'>
+                    HTML, CSS, JavaScript, API, Materialize, Photoshop
+                  </p>
                   <figure className='image is-4by3'>
                     <ImageGallery
                       items={eeImages}
@@ -129,7 +138,8 @@ function Projects() {
                   </figure>
                   <div className='content'>
                     <p>
-                    An application for users to get mental health support and general advice from loved ones.
+                      An application for users to get mental health support and
+                      general advice from loved ones.
                     </p>
                   </div>
                   <div className='buttons has-addons is-centered'>
@@ -152,7 +162,9 @@ function Projects() {
                 </figure> */}
                 <div id='flip-card-back'>
                   <p className='title'>Devin's Weather Dashboard</p>
-                  <p className='subtitle'>HTML, CSS, JavaScript, jQuery, API, Bootstrap, Font Awesome</p>
+                  <p className='subtitle'>
+                    HTML, CSS, JavaScript, jQuery, API, Bootstrap, Font Awesome
+                  </p>
                   <figure className='image is-4by3'>
                     <ImageGallery
                       items={weatherImages}
@@ -163,7 +175,8 @@ function Projects() {
                   </figure>
                   <div className='content'>
                     <p>
-                    A Weather application using Open Weather API to display current weather conditions for a searched city.
+                      A Weather application using Open Weather API to display
+                      current weather conditions for a searched city.
                     </p>
                   </div>
                   <div className='buttons has-addons is-centered'>

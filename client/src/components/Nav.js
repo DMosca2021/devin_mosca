@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   const [isActive, setIsActive] = useState(false);
@@ -20,10 +20,10 @@ function Nav() {
 
             <a
               onClick={() => {
-                setIsActive(!isActive)
+                setIsActive(!isActive);
               }}
               role='button'
-              className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+              className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
               aria-label='menu'
               aria-expanded='false'
               data-target='navbarBasic'
@@ -34,21 +34,40 @@ function Nav() {
             </a>
           </div>
 
-          <div id='navbarBasic' className={`navbar-menu ${isActive ? "is-active" : ""}`}>
+          <div
+            id='navbarBasic'
+            className={`navbar-menu ${isActive ? 'is-active' : ''}`}
+          >
             <div className='navbar-start'>
-              <a className='navbar-item'>About Me</a>
+              <a className='navbar-item' href='#about-title'>
+                About Me
+              </a>
 
-              <a className='navbar-item'>My Skills</a>
+              <a className='navbar-item' href='#skills-contain'>
+                My Skills
+              </a>
 
-              <a className='navbar-item'>My Projects</a>
+              <a className='navbar-item' href='#project-contain'>
+                My Projects
+              </a>
 
-              <a className='navbar-item'>Contact Me</a>
+              <a className='navbar-item' href='#form-section'>
+                Contact Me
+              </a>
+
+              <a className='navbar-item' href='#footer-contain'>
+                Bottom of the page
+              </a>
             </div>
 
             <div className='navbar-end'>
               <div className='navbar-item'>
                 <div>
-                  <a className='button is-primary'>
+                  <a
+                    className='button is-primary'
+                    href='https://docs.google.com/document/d/1KD8DspLtCu3Cb3lA7VSG24PH7bKvYFsAzWMytRI7Z-4/edit?usp=sharing'
+                    target='_blank'
+                  >
                     Here's my resume
                   </a>
                 </div>

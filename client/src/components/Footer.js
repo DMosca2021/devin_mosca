@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className='columns'>
-      <footer className='footer column is-full'>
+      <footer className='footer column is-full' id='footer-contain'>
         <nav className='level'>
           <p className='level-item has-text-centered'>
             <a className='link is-info'>Back to the top</a>
@@ -10,10 +10,7 @@ function Footer() {
             <a className='link is-info'>My Skills</a>
           </p>
           <p className='level-item has-text-centered'>
-            <img
-              src='https://bulma.io/images/bulma-type.png'
-              alt='logo'
-            ></img>
+            <img src='https://bulma.io/images/bulma-type.png' alt='logo'></img>
           </p>
           <p className='level-item has-text-centered'>
             <a className='link is-info'>My Projects</a>

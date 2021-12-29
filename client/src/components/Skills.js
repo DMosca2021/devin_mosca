@@ -45,7 +45,6 @@ function Skills() {
           <h2 className='subtitle is-3'>
             Use the arrows or swipe through the gallery
           </h2>
-
           <Carousel slides={slides}></Carousel>
         </section>
       </div>
