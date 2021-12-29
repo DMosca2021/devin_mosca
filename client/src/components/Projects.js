@@ -106,8 +106,22 @@ function Projects() {
                     </p>
                   </div>
                   <div className='buttons has-addons is-centered'>
-                    <button className='button'>Deployed App</button>
-                    <button className='button'>Repository </button>
+                    <a
+                      className='button'
+                      href='https://scrypts-of-betrayal.herokuapp.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Deployed App
+                    </a>
+                    <a
+                      className='button'
+                      href='https://github.com/DMosca2021/Scrypts_of_Betrayal'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Repository
+                    </a>
                   </div>
                 </div>
               </article>
@@ -143,8 +157,22 @@ function Projects() {
                     </p>
                   </div>
                   <div className='buttons has-addons is-centered'>
-                    <button className='button'>Deployed App</button>
-                    <button className='button'>Repository </button>
+                    <a
+                      className='button'
+                      href='https://dmosca2021.github.io/Eternal_External/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Deployed App
+                    </a>
+                    <a
+                      className='button'
+                      href='https://github.com/DMosca2021/Eternal_External'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Repository
+                    </a>
                   </div>
                 </div>
               </article>
@@ -180,8 +208,22 @@ function Projects() {
                     </p>
                   </div>
                   <div className='buttons has-addons is-centered'>
-                    <button className='button'>Deployed App</button>
-                    <button className='button'>Repository </button>
+                    <a
+                      className='button'
+                      href='https://dmosca2021.github.io/Devins_Weather_Dashboard/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Deployed App
+                    </a>
+                    <a
+                      className='button'
+                      href='https://github.com/DMosca2021/Devins_Weather_Dashboard'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Repository
+                    </a>
                   </div>
                 </div>
               </article>
