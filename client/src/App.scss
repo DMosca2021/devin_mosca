@@ -19,6 +19,7 @@ p {
   text-shadow: 1px 1px 2px #000000;
 }
 
+
 // About me component styling
 
 #about-contain {
@@ -28,6 +29,7 @@ p {
 #prof-pic {
   height: auto;
   width: 600px;
+  opacity: .9;
 }
 
 #about-text {
@@ -134,7 +136,10 @@ p {
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Neucha&display=swap');
 
 // Set your brand colors
-$red: #940818;
+$carmine: #940818;
+$mint-cream: #EFF6EE;
+$light-gray: #CDD5D1;
+$nickel: #6A706E;
 $purple: #8a4d76;
 $pink: #fa7c91;
 $brown: #757763;
@@ -145,10 +150,10 @@ $beige-lighter: #eff0eb;
 $family-sans-serif: 'Aldrich', sans-serif;
 // font-family: 'Neucha', cursive;
 // font-family: 'Aldrich', sans-serif;
-$grey-dark: $brown;
+$grey-dark: $light-gray;
 $grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
+$primary: $carmine;
+$link: $nickel;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
@@ -156,9 +161,9 @@ $fullhd-enabled: false;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-$navbar-background-color: $red;
-$navbar-item-active-background-color: $purple;
-$navbar-item-hover-background-color: $purple;
+$navbar-background-color: $nickel;
+$navbar-item-active-background-color: $carmine;
+$navbar-item-hover-background-color: $carmine;
 $section-padding-large: 12rem 6rem;
 
 // Import only what you need from Bulma
