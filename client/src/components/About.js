@@ -1,4 +1,5 @@
 import profPic from '../assets/images/profile_pic.jpeg';
+import profPic2 from '../assets/svg/vector-profile-pic.svg';
 
 function About() {
   return (
@@ -20,7 +21,7 @@ function About() {
             <figure className='image is-96X96'>
               <img
                 className='is-rounded'
-                src={profPic}
+                src={profPic2}
                 id='prof-pic'
                 alt='profile'
               ></img>
