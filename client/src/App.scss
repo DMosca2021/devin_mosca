@@ -54,11 +54,17 @@ p {
 // Skills component styling
 
 #skills-title {
-  color: gray;
-  -webkit-text-stroke: 0.1px #940818;
-  text-shadow: 2px 2px 4px #000000;
+  color: #6A706E;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.1px #CDD5D1;
+  text-shadow: 2px 2px 2px #000000;
   margin-top: 50px;
   margin-bottom: none;
+}
+
+#skills-subtitle {
+  color: black;
+  font-weight: bolder;
 }
 
 #tech-logo {
@@ -150,6 +156,7 @@ $beige-lighter: #eff0eb;
 $family-sans-serif: 'Aldrich', sans-serif;
 // font-family: 'Neucha', cursive;
 // font-family: 'Aldrich', sans-serif;
+
 $grey-dark: $light-gray;
 $grey-light: $beige-light;
 $primary: $carmine;
@@ -158,6 +165,7 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
+
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
