@@ -7,14 +7,20 @@ function Contact() {
         </h1>
         <p className='subtitle is-2'>Fill out the form below</p>
         <section className='columns is-multiline is-centered has-text-left section is-large'>
-          <form className='box column is-6' id='form-section'>
+          <form
+            className='box column is-6'
+            id='form-section'
+            action='https://getform.io/f/921daf72-4336-4e10-aae6-b24753aba91b'
+            method='POST'
+          >
             <div className='field'>
               <label className='label'>First Name</label>
               <div className='control'>
                 <input
                   className='input'
+                  name='first-name'
                   type='text'
-                  placeholder='Text input'
+                  placeholder='Your First Name'
                 ></input>
               </div>
             </div>
@@ -24,8 +30,9 @@ function Contact() {
               <div className='control'>
                 <input
                   className='input'
+                  name='last-name'
                   type='text'
-                  placeholder='Text input'
+                  placeholder='Your Last Name'
                 ></input>
               </div>
             </div>
@@ -35,8 +42,9 @@ function Contact() {
               <div className='control'>
                 <input
                   className='input'
+                  name='email'
                   type='email'
-                  placeholder='Email input'
+                  placeholder='yourEmail@email.com'
                 ></input>
               </div>
             </div>
@@ -45,12 +53,12 @@ function Contact() {
               <label className='label'>Subject</label>
               <div className='control'>
                 <div className='select'>
-                  <select>
+                  <select name='subject'>
                     <option>Select subject:</option>
-                    <option>Say Hi!</option>
-                    <option>Collaborate</option>
-                    <option>Need Help?</option>
-                    <option>Hire Me.</option>
+                    <option value='Say Hi!'>Say Hi!</option>
+                    <option value='Collaborate.'>Collaborate</option>
+                    <option value='Need Help?'>Need Help?</option>
+                    <option value='Hire Me.'>Hire Me.</option>
                   </select>
                 </div>
               </div>
@@ -61,7 +69,8 @@ function Contact() {
               <div className='control'>
                 <textarea
                   className='textarea'
-                  placeholder='Textarea'
+                  name='message'
+                  placeholder='I LOVE your work Devin!'
                 ></textarea>
               </div>
             </div>
