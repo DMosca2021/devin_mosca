@@ -87,7 +87,15 @@ p {
   background-color: rgba(128, 128, 128, 0.5);
 }
 
-// Project component styling
+@media screen and (max-width: 768px) {
+  body {
+    background-image: none;
+  }
+
+  #skills-title {
+    font-size: 40px;
+  }
+}
 
 // Set up for card flip animation for project cards -- work in progress
 /* @media screen and (max-width:768px) {
