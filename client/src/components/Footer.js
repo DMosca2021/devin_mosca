@@ -10,7 +10,7 @@ function Footer() {
             <a className='link is-info' href='#skills-contain'>My Skills</a>
           </p>
           <p className='level-item has-text-centered'>
-            <img src='https://bulma.io/images/bulma-type.png' alt='logo'></img>
+            {/* <img src='https://bulma.io/images/bulma-type.png' alt='logo'></img> */}
           </p>
           <p className='level-item has-text-centered'>
             <a className='link is-info' href='#project-contain'>My Projects</a>

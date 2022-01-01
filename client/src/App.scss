@@ -173,6 +173,7 @@ $navbar-background-color: $nickel;
 $navbar-item-active-background-color: $carmine;
 $navbar-item-hover-background-color: $carmine;
 $section-padding-large: 12rem 6rem;
+$footer-background-color: none;
 
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/grid/columns.sass';
